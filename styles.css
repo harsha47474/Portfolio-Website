@@ -1,0 +1,146 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background: #121212;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #222;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00aaff;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links li a:hover {
+    color: #00aaff;
+}
+
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.hero-content span {
+    color: #00aaff;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #00aaff;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #0088cc;
+}
+
+
+section {
+    padding: 60px;
+    text-align: center;
+}
+
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project h3 {
+    color: #00aaff;
+}
+
+
+#contact a {
+    color: #00aaff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact a:hover {
+    color: #0088cc;
+}
+
+
+footer {
+    background: #222;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    color: #aaa;
+}
